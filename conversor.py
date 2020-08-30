@@ -1,7 +1,7 @@
-pesos = input ("¿Cuántos soles tienes?: ")
-pesos = float(pesos)
+soles = input ("¿Cuántos soles tienes?: ")
+soles = float(soles)
 valor_dolar = 3.56
-dolares = pesos / valor_dolar
+dolares = soles * valor_dolar
 dolares = round(dolares, 2)
 dolares = str(dolares)
 print("Tienes $" + dolares + " dólares")
